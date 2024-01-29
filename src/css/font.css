@@ -12,7 +12,7 @@
     src: local('MuseoSansCyrl-300'),
         url('../fonts/MuseoSansCyrl-300.woff2') format('woff2'),
         url('../fonts/MuseoSansCyrl-300.woff') format('woff');
-    font-weight: normal;
+    font-weight: 300;
     font-style: normal;
 }
 
@@ -21,6 +21,6 @@
     src: local('MuseoSansCyrl-700'),
         url('../fonts/MuseoSansCyrl-700.woff2') format('woff2'),
         url('../fonts/MuseoSansCyrl-700.woff') format('woff');
-    font-weight: normal;
+    font-weight: 700;
     font-style: normal;
 }
