@@ -184,6 +184,15 @@
   font-size: 20px;
   font-weight: 500;
 }
+.consultation .error {
+  border: 1px solid red;
+}
+.consultation label.error {
+  color: #fff;
+  border: none;
+  text-align: center;
+  margin-bottom: 15px;
+}
 
 .feed-form {
   margin-top: 36px;
@@ -205,6 +214,9 @@
 }
 .feed-form input:nth-child(3) {
   margin-bottom: 20px;
+}
+.feed-form_mt25 {
+  margin-top: 25px;
 }
 
 .carousel {
@@ -490,4 +502,60 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.overlay {
+  display: none;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.56);
+}
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 380px;
+  min-height: 400px;
+  background-color: #f2f2f2;
+  padding: 38px 40px 40px 40px;
+}
+.modal__close {
+  position: absolute;
+  top: 0;
+  right: -40px;
+  font-size: 41px;
+  line-height: 21px;
+  color: #c70101;
+  cursor: pointer;
+}
+.modal__subtitle {
+  color: #0d0d0d;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+}
+.modal__descr {
+  color: #0d0d0d;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+}
+.modal_mini {
+  min-height: 140px;
+}
+.modal .error {
+  border: 1px solid red;
+}
+.modal label.error {
+  border: none;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+#consultation, #order, #thanks {
+  display: none;
 }/*# sourceMappingURL=style.css.map */
