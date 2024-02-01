@@ -1,3 +1,14 @@
+@keyframes heartbeat {
+  from {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.4);
+  }
+  to {
+    transform: scale(1);
+  }
+}
 * {
   font-family: "Museo Sans Cyrl", sans-serif;
 }
@@ -160,6 +171,12 @@
 .advantages__descr a {
   color: #ff0000;
   text-decoration: underline;
+}
+.advantages__icon_animated {
+  animation: heartbeat 1.5s ease infinite;
+}
+.advantages__icon_animated:hover {
+  animation-play-state: paused;
 }
 
 .title {
@@ -558,4 +575,16 @@
 
 #consultation, #order, #thanks {
   display: none;
+}
+
+.pageup {
+  display: none;
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  width: 40px;
+  height: 40px;
+}
+.pageup img {
+  width: 100%;
 }/*# sourceMappingURL=style.css.map */
